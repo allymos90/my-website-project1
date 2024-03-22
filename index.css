@@ -1,0 +1,26 @@
+body {
+    background-image: url('/images/mbt.jpg');
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    background-color: purple;
+}
+
+.gallery {
+    margin: 0 5px; /* Adjust margin as needed */
+}
+
+.gallery img {
+    max-width: 200px; 
+    height: auto;
+}
+
+.description {
+    text-align: center;
+    font-size: 14px;
+}

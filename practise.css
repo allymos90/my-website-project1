@@ -1,0 +1,34 @@
+/* practise.css */
+
+/* Banner container */
+.web-development-banner {
+    background-color: rgb(10, 148, 234);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    width: 100px; /* Adjust as needed */
+}
+
+/* Heading */
+h1 {
+    background: orange;
+    color: white;
+    margin: 0; /* Remove margin to make h1 and h2 touch */
+    border: solid;
+}
+
+h2 {
+    color: white;
+    
+    margin: 0; /* Remove margin to make h1 and h2 touch */
+}
+
+/* Illustration */
+.illustration img{
+    
+    width: 150px; /* Adjust as needed */
+    height: auto;
+}

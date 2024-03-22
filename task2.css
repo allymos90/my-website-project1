@@ -1,0 +1,51 @@
+body {
+    background-image: url('/images/devops.jpg');
+    background-repeat: no-repeat;
+    background-size: 900px;
+    margin: 0;
+}
+
+.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px; 
+    display: flex; 
+    
+    align-items: center; 
+}
+
+.horizontal-list li {
+    display: inline;
+}
+
+
+
+
+.horizontal-list li:last-child {
+    margin-left: auto; 
+}
+.horizontal-list li a {
+    text-decoration: none; 
+    margin-left: 10px;
+    color: white;
+}
+
+
+h1 {
+    margin: 20px 50px 0 100px; 
+    color: aliceblue;
+}
+
+h5 {
+    margin: 10px 50px 0 130px; 
+    color: whitesmoke;
+}
+
+p {
+    
+    margin: 20px auto 50px auto; 
+    width: 50%; 
+    color: white;
+}
+
+
